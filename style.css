@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 body{
@@ -10,12 +11,14 @@ body{
 
 .container{
     display: flex;
+    /* overflow: hidden; */
 }
 .box1{
  width: 9rem;
- height: 100rem;
+ height: 63rem;
  background-color: rgb(53, 47, 47);
  margin-top: -3rem;
+ /* overflow: hidden; */
 }
 .navbar{
     color: white;
@@ -66,9 +69,28 @@ body{
     margin: 0rem 0.5rem;
     border-radius: 2rem;
 }
-#box{
+/* .box1{
     width: 30rem;
     height:40rem;
-    background-color: rgb(195, 59, 59);
     margin: 20px;
+} */
+
+
+
+.content {
+    margin-bottom: 15px;
 }
+.content a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    width: 5rem;
+}
+
+.content a:hover {
+    background-color: #ddd;
+    color: black;
+} 

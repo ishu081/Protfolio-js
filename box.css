@@ -1,31 +1,47 @@
+.box3{
+    overflow-y: scroll;
+}
 .box2{
+    color: white;
+    margin: 0 1rem;
+    display: flex;
+    overflow-y: auto;
+}
+.group{
     width: 300rem;
     height:100rem;
     background-color: rgb(53, 47, 47);
     color: white;
-   margin: 0 1rem;
-   display: flex;
+    overflow-x: hidden;
+  
 
 }
 .image2{
     width: 49rem;
-    height: 70rem;
+    height: 60rem;
 }
 .text1{
-   font-family: 'Times New Roman', Times, serif;
-   font-weight: 1;
-   margin: 16rem 5rem
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1;
+    margin:6rem 5rem;
 }
 
 .text2{
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- margin: -16rem 5rem;
+ margin: -6rem 5rem;
 }
 .text3{
     font-family: 'Times New Roman', Times, serif;
     width: 30rem;
     height: 40rem;
-    margin: 18rem 5rem;
+    margin: 8rem 5rem;
+    font-size: 1rem;
+}
+.text4{
+    color: yellow;
+  margin:1rem 11rem;
+  font-size: 4.5rem;
+  font-style: oblique;
 }
 
 .cv{
@@ -36,4 +52,25 @@
     color: white;
     padding: 1rem 2rem;
     margin: -30rem 7rem;
+}
+.box4{
+    width: 300rem;
+    height:100rem;
+    background-color: rgb(53, 47, 47);
+    color: white;
+    margin: 0 1rem;
+    display: flex;
+    overflow-y: auto;
+}
+
+.horizontal_line{
+  rotate: 90deg;
+  margin:-55rem 12rem;
+   margin-top: -150rem;
+}
+
+.text5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    margin-left: -21rem;
 }
