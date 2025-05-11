@@ -72,5 +72,38 @@
 .text5{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2rem;
-    margin-left: -21rem;
+    margin-left: 6rem;
 }
+
+.text6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    margin:9rem -22rem;
+    font-style: italic;
+
+}
+.hron{
+    margin:13rem 19rem;
+    height: 27rem;
+  }
+
+
+.dot1{
+    width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin: 17rem -19.5rem;
+    /* position: fixed; */
+}
+.dot2{
+    width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+}
+.text7{
+        margin: 17rem 20.5rem;
+}
+.text8{
+    margin: 0rem 2.5rem;}
