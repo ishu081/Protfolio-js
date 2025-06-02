@@ -74,22 +74,22 @@
 .text6{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
-    margin:
-  11rem 15rem;
+   margin: 4rem 6rem;
     font-style: italic;
-    position: sticky;
+    position: static;
     
 }
 
 
 
 .dot1{
-    width: 1rem;
-    height: 1rem;
-    background-color: red;
-    border-radius: 1rem;
-    margin: 17rem -142.5rem;    /* position: fixed; */
-}
+   width: 1rem;
+  height: 1rem;
+  background-color: red;
+  border-radius:1rem;
+  margin:7rem -15.1rem;
+}    
+
 .dot2{
     width: 1rem;
     height: 1rem;
@@ -126,6 +126,13 @@
     /* position:fixed; */
 }
 .horn-line{
-    margin: 0rem 0rem;
-    transform: rotatex('90');
+    margin:23rem -4rem;
+  transform: rotate(90deg);
+  height: 0rem;
+  width: 36rem;
+    
+}
+.resumeText{
+    display: flex;
+    position: sticky;
 }
