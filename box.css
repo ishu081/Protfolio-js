@@ -10,7 +10,7 @@
 }
 .group{
     width: 121rem;
-    height: 200rem;
+    height: 300rem;
     background-color: rgb(53, 47, 47);
     color: white;
     overflow-x: auto;
@@ -106,7 +106,7 @@
     height: 1rem;
     background-color: red;
     border-radius: 1rem;
-    margin:4rem -4.5rem;
+    margin:17rem 0rem;
     
 }
 .text7{
@@ -121,9 +121,8 @@ margin:12rem 4rem;
 }
 .text9{
    margin:0rem 0rem;
-   width: 37rem
-     font-size: 1.3rem;
-
+   width: 40rem;
+   font-size: 1.3rem;
 }
 .text10{
     margin:2rem 4.5rem;
@@ -154,21 +153,258 @@ margin:12rem 4rem;
   width: 36rem;
     
 }
-.resumeText{
+.resumetext{
     display: flex;
     position: sticky;
 }
 
 /* skills-section */
 .skills{
-    margin: 33rem -5rem;
-    width: 30rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+   margin: -64rem 60rem;
+    font-style: italic;
     position: static;
+    width: 60rem;
+    height: 60rem;
 }
 
 .horizontal-line-3{
-     margin:21rem -12rem;
+     margin:21rem -10rem;
   transform: rotate(90deg);
   height: 0rem;
   width: 36rem;
+}
+.red-dot4{
+   width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:-37rem 7.5rem;
+}
+.html{
+  margin: 0rem 4rem;
+  width: 30rem;
+  height: 30rem;
+
+}
+.t100{
+  margin: -3rem 29rem;
+  font-size: 1rem;
+}
+.line1{
+  width: 20rem;
+  height: 1rem;
+  /* background-color: red; */
+  border-radius:2rem;
+  margin:3rem 12.5rem;
+  border-color: white solid 2rem;
+  background: linear-gradient(to right, red 50%, red 50%);
+
+}
+.red-dot5{
+   width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:43rem 7.5rem;
+}
+.js{
+  margin: 0rem 4rem;
+}
+.t70{
+  margin: -3rem 29rem;
+  font-size: 1rem;
+}
+.line2{
+  width: 20rem;
+  height: 1rem;
+  background-color: red;
+  border-radius:2rem;
+  margin:3rem 12.5rem;
+  border-color: white solid 2rem;
+    background: linear-gradient(to right, red 70%, rgb(59, 23, 23) 30%);
+
+}
+.red-dot6{
+   width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:-37rem 7.5rem;
+}
+.r-js{
+  margin: 0rem 4rem;
+  width: 20;
+}
+.t50{
+  margin: -3rem 29rem;
+  font-size: 1rem;
+}
+.line3{
+  width: 20rem;
+  height: 1rem;
+  background-color: red;
+  border-radius:2rem;
+  margin:3rem 12.5rem;
+  border-color: white solid 2rem;
+  background: linear-gradient(to right, red 50%, rgb(59, 23, 23) 50%);
+}
+.experience{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+   margin: 50rem 7rem;
+    font-style: italic;
+    position: static;
+    width: 60rem;
+    height: 60rem;
+}
+
+.horizontal-line4{
+     margin:21rem -13rem;;
+  transform: rotate(90deg);
+  height: 0rem;
+  width: 36rem;
+}
+.red-dot7{
+   width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:-36rem 4.5rem;
+}
+.red-dot8{
+   width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:42rem 4.5rem;
+}
+.red-dot9{
+   width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:-36rem 4.5rem;
+}
+
+.red-dot10{
+   width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:43rem 4.5rem;
+}
+
+.designing{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+   margin: -109rem 60rem;
+    font-style: italic;
+    position: static;
+    width: 60rem;
+    height: 60rem;
+}
+.horizontal-line5{
+     margin:21rem -10rem;;
+  transform: rotate(90deg);
+  height: 0rem;
+  width: 36rem;
+}
+.red-dot11{
+  width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:-37rem 7.5rem;
+}
+.web{
+   margin: 0rem 5rem;
+   width: 20rem;
+}
+.t80{
+  margin: -3rem 29rem;
+  font-size: 1rem;
+}
+.line4{
+  width: 20rem;
+  height: 1rem;
+  background-color: red;
+  border-radius:2rem;
+  margin:3rem 12rem;
+  border-color: white solid 2rem;
+  background: linear-gradient(to right, red 80%, rgb(59, 23, 23) 20%);
+}
+.red-dot12{
+  width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:42rem 7.5rem;
+}
+.print{
+   margin: 0rem 5rem;
+   width: 20rem;
+}
+.p50{
+  margin: -3rem 29rem;
+  font-size: 1rem;
+}
+.line5{
+  width: 20rem;
+  height: 1rem;
+  background-color: red;
+  border-radius:2rem;
+  margin:3rem 12rem;
+  border-color: white solid 2rem;
+  background: linear-gradient(to right, red 50%, rgb(59, 23, 23) 50%);
+}
+
+.red-dot13{
+  width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:-37rem 7.5rem;
+}
+.logo{
+   margin: 0rem 5rem;
+   width: 20rem;
+}
+.l30{
+  margin: -3rem 29rem;
+  font-size: 1rem;
+}
+.line6{
+  width: 20rem;
+  height: 1rem;
+  background-color: red;
+  border-radius:2rem;
+  margin:3rem 12rem;
+  border-color: white solid 2rem;
+  background: linear-gradient(to right, red 50%, rgb(59, 23, 23) 50%);
+}
+.red-dot14{
+  width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:42rem 7.5rem;
+}
+.graphic{
+   margin: 0rem 5rem;
+   width: 20rem;
+}
+.g70{
+  margin: -3rem 29rem;
+  font-size: 1rem;
+}
+.line7{
+  width: 20rem;
+  height: 1rem;
+  background-color: red;
+  border-radius:2rem;
+  margin:3rem 12rem;
+  border-color: white solid 2rem;
+  background: linear-gradient(to right, red 50%, rgb(59, 23, 23) 50%);
 }
