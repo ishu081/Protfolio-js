@@ -77,42 +77,64 @@
    margin: 4rem 6rem;
     font-style: italic;
     position: static;
-    
+    width: 60rem;
+    height: 60rem;
+    /* background-color: white; */
 }
 
 
 
-.dot1{
+.red-dot1{
    width: 1rem;
   height: 1rem;
   background-color: red;
   border-radius:1rem;
-  margin:7rem -15.1rem;
+  margin:-36rem 5.5rem;
 }    
 
-.dot2{
+.red-dot2{
     width: 1rem;
     height: 1rem;
     background-color: red;
     border-radius: 1rem;
-    margin:27rem -173rem;
+    margin:-8rem 0rem;
+    
+}
+
+.red-dot3{
+    width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:4rem -4.5rem;
     
 }
 .text7{
-    margin: 17rem 144.5rem;
+margin:-12rem 4rem;
+  width: 37rem;
+  font-size: 1.3rem;
 }
 .text8{
-    margin: 0rem 2.5rem;
+margin:12rem 4rem;
+  width: 17rem;
+  font-size: 1.3rem;
 }
 .text9{
-    margin:27rem 175.5rem;
-    font-size: 1rem;
+   margin:0rem 0rem;
+   width: 37rem
+     font-size: 1.3rem;
+
 }
 .text10{
-    margin:0rem 2.5rem;
-    font-size: 1rem;
+    margin:2rem 4.5rem;
+  font-size: 1.3rem;
+  width: 35rem;
 }
-
+.text12{
+    margin:2rem 4.5rem;
+  font-size: 1.3rem;
+  width: 28rem;
+}
 
 
 .cv{
@@ -126,7 +148,7 @@
     /* position:fixed; */
 }
 .horn-line{
-    margin:23rem -4rem;
+    margin:21rem -12rem;
   transform: rotate(90deg);
   height: 0rem;
   width: 36rem;
@@ -135,4 +157,18 @@
 .resumeText{
     display: flex;
     position: sticky;
+}
+
+/* skills-section */
+.skills{
+    margin: 33rem -5rem;
+    width: 30rem;
+    position: static;
+}
+
+.horizontal-line-3{
+     margin:21rem -12rem;
+  transform: rotate(90deg);
+  height: 0rem;
+  width: 36rem;
 }
