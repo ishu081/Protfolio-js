@@ -18,9 +18,9 @@
   }
 
 .image2{
-    width: 49rem;
+    width: 45rem;
     height: 60rem;
-    border-radius: 3rem;
+    border-radius: 0rem;
 }
 /* .image2{
     width: 49rem;
@@ -28,26 +28,34 @@
 } */
 .text1{
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 1;
-    margin:6rem 5rem;
+  font-size: 1.3rem;
+  margin:
+16rem 5rem;
+  text-decoration:underline;
+  text-decoration-color: red;
+  color: #55aab2bd;
 }
 
 .text2{
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- margin: -6rem 5rem;
+ margin: -16rem 5rem;
+ color: #7DD3FC;
+ font-size: 3rem;
 }
 .text3{
     font-family: 'Times New Roman', Times, serif;
-    width: 30rem;
+    width: 40rem;
     height: 40rem;
-    margin: 8rem 5rem;
-    font-size: 1rem;
+    margin: 18rem 5rem;
+    font-size: 1.3rem;
+    display: wrap;
 }
 .text4{
-    color: #00BFA6;
+    color: #c28e1c;
   margin:1rem 11rem;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-style: oblique;
+  width: 46rem;
 }
 
 .box4{
