@@ -6,7 +6,10 @@
     color: white;
 
 }
-.hr-project{
-    width: 30rem;
-    color: white;
+.hr-project {
+    border: 0;
+    height: 2px;
+    background: red; /* or any color you prefer */
+    margin: 10px 0; /* adjust spacing as needed */
+    width: 100%; /* or set a specific width */
 }
