@@ -1,0 +1,62 @@
+.box2{
+    overflow-y: scroll;
+    background-color: rgb(53, 47, 47);
+    margin:0rem 11rem;
+    width: 120rem;
+    height: 100rem;
+}
+
+.container2{
+    width: 121rem;
+    height: 40rem;
+    color: white;
+    margin:0rem 1rem;
+}
+
+.about-img{
+    color: white;
+    margin: 0 1rem;
+    display: flex;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+.image2{
+    width: 45rem;
+    height: 60rem;
+    border-radius: 0rem;
+}
+
+.web-text{
+    font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+  margin:
+16rem 5rem;
+  /* text-decoration:underline;
+  text-decoration-color: red; */
+  color: #55aab2bd;
+}
+
+.name-text{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ margin: -16rem 5rem;
+ color: #7DD3FC;
+ font-size: 3rem;
+}
+.introduction-text{
+    font-family: 'Times New Roman', Times, serif;
+    width: 40rem;
+    height: 40rem;
+    margin: 18rem 5rem;
+    font-size: 1.3rem;
+    display: wrap;
+}
+.cv{
+    border-color: red;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color: rgb(53, 47, 47);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    margin: 0rem 0rem;
+    font-size: 1rem;
+}

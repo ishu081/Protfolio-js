@@ -10,18 +10,19 @@ body{
 }
 
 .container{
-    /* display: flex; */
+   
     overflow: hidden;
 
 }
-.box1{
- width: 9rem;
- height: 100%;
- background-color: rgb(53, 47, 47);
- margin-top: -3rem;
+.container1{
+    /* display: flex; */
+    width: 9rem;
+    height: 100%;
+    background-color: rgb(53, 47, 47);
+    margin-top: -3rem;
  /* overflow: hidden; */
 }
-.navbar{
+.navbar1{
     color: white;
     margin: 3rem 2rem;
     cursor: pointer;
@@ -30,7 +31,7 @@ body{
 .navbar2{
     font-size: 1;
 }
-.image{
+.image1{
     width: 5rem;
     height: 7rem; 
      margin: 4rem 0;
@@ -40,7 +41,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: -4rem -8px;
 }
-.list{
+.list1{
     margin: 9rem 0;
     text-decoration: none;
     cursor: pointer;
@@ -59,22 +60,18 @@ body{
     margin: 0rem -1.5rem;
 }
 .facebook{
-    width:2rem;
-    height: 2rem;
-    margin: 0rem 0.5rem;
-    border-radius: 2rem;
+   width: 1.7rem;
+  height: 2rem;
+  margin:0rem 1rem;
+  border-radius:2rem;
 }
 .github{
-    width:2rem;
-    height: 2rem;
-    margin: 0rem 0.5rem;
-    border-radius: 2rem;
+   width: 2rem;
+  height: 2rem;
+  margin:0rem -0.5rem;
+  border-radius:2rem;
 }
-/* .box2{
-    width: 30rem;
-    height:40rem;
-    
-} */
+
 
 
 

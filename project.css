@@ -1,15 +1,43 @@
-.project-topic{
-    
-    margin: -113rem 15rem;
+.container4{
     width: 100%;
-    height: 30rem;
-    color: white;
-
+    height: auto;
 }
-.hr-project {
-    border: 0;
-    height: 2px;
-    background: red; /* or any color you prefer */
-    margin: 10px 0; /* adjust spacing as needed */
-    width: 100%; /* or set a specific width */
+.project{
+  margin: -57rem 4rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem ;
+    color: white;
+    overflow-y: auto;
+    /* position: fixed; */
+}
+
+.horizontal-line-project{
+   
+margin: 0rem -4rem;
+display: flex;
+}
+
+.box{
+    width: 12rem;
+    height: 16rem;
+    color: white;
+    margin: 5rem 2rem;
+    background-color: black;
+    transition: background-color 0s ease;
+}
+
+.box:hover{
+    background: linear-gradient(90deg, #000000 0.5%, #ffffff 100%);
+}
+.plus{
+    font-size: 1rem;
+    padding: 4rem 4rem;
+}
+.delete{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    color: white;
+    font-size: 4rem;
+    cursor: pointer;
 }

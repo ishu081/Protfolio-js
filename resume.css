@@ -1,170 +1,112 @@
-.box3{
-    overflow-y: scroll;
-}
-.box2{
+.container3 {
+    clear: both; /* Ensures it appears below floated elements */
+    margin-top: 30rem; /* Adds space after about section */
     color: white;
-    margin: 0 1rem;
+}
+.resume{
+    margin: 0rem 4rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem ;
+}
+.container-resume1{
     display: flex;
-    overflow-y: scroll;
-    overflow-x: auto;
-}
-.group{
-    width: 121rem;
-    height: 300rem;
-    background-color: rgb(53, 47, 47);
-    color: white;
-    overflow-x: auto;
-    margin:0rem 1rem;
-  }
-
-.image2{
-    width: 45rem;
-    height: 60rem;
-    border-radius: 0rem;
-}
-/* .image2{
-    width: 49rem;
-    height: 60rem;
-} */
-.text1{
-    font-family: 'Times New Roman', Times, serif;
-  font-size: 1.3rem;
-  margin:
-16rem 5rem;
-  text-decoration:underline;
-  text-decoration-color: red;
-  color: #55aab2bd;
-}
-
-.text2{
- font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- margin: -16rem 5rem;
- color: #7DD3FC;
- font-size: 3rem;
-}
-.text3{
-    font-family: 'Times New Roman', Times, serif;
-    width: 40rem;
-    height: 40rem;
-    margin: 18rem 5rem;
-    font-size: 1.3rem;
-    display: wrap;
-}
-.text4{
-    color: #c28e1c;
-  margin:1rem 11rem;
-  font-size: 3.5rem;
-  font-style: oblique;
-  width: 46rem;
-}
-
-.box4{
-    width: 300rem;
-    height:100rem;
-    background-color: rgb(53, 47, 47);
-    color: white;
-    margin: 0 1rem;
-    display: flex;
-}
-
-.horizontal_line{
-    rotate: 90deg;
-    margin:-55rem 12rem;
-   margin-top: -150rem;
 }
 
 .text5{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2rem;
     margin-left: 6rem;
+    color: white;
 }
 
-.text6{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5rem;
-   margin: 4rem 6rem;
-    font-style: italic;
-    position: static;
-    width: 60rem;
-    height: 60rem;
-    /* background-color: white; */
-}
+/* .box4{
+    width: 300rem;
+    height:100rem;
+    background-color: rgb(53, 47, 47);
+    color: white;
+    margin: 0 1rem;
+    display: flex;
+    } */
+    
+    
+    
+    .education{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5rem;
+        margin: 4rem 6rem;
+        font-style: italic;
+        position: static;
+        width: 60rem;
+        height: 60rem;
+        /* background-color: white; */
+    }
+    .horizontal-line-education{
+        margin:21rem -12rem;
+      transform: rotate(90deg);
+      height: 0rem;
+      width: 36rem;
+        
+    }
 
-
-
-.red-dot1{
+.red-dot1E{
    width: 1rem;
   height: 1rem;
   background-color: red;
   border-radius:1rem;
   margin:-36rem 5.5rem;
-}    
-
-.red-dot2{
-    width: 1rem;
-    height: 1rem;
-    background-color: red;
-    border-radius: 1rem;
-    margin:-8rem 0rem;
-    
-}
-
-.red-dot3{
-    width: 1rem;
-    height: 1rem;
-    background-color: red;
-    border-radius: 1rem;
-    margin:17rem 0rem;
-    
-}
-.text7{
+}   
+.Bachlore-Line1{
 margin:-12rem 4rem;
   width: 37rem;
   font-size: 1.3rem;
-}
-.text8{
+} 
+.red-dot2E{
+   width: 1rem;
+  height: 1rem;
+  background-color: red;
+  border-radius:1rem;
+  margin:47rem 5.5rem;
+}   
+
+.Bachlore-Line2{
 margin:12rem 4rem;
   width: 17rem;
   font-size: 1.3rem;
 }
-.text9{
+
+.red-dot3E{
+    width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin:-36rem 5.5rem;
+    
+}
+
+.Bachlore-Line3{
    margin:0rem 0rem;
    width: 40rem;
    font-size: 1.3rem;
 }
-.text10{
+
+
+.HighSchool-line1{
     margin:2rem 4.5rem;
   font-size: 1.3rem;
   width: 35rem;
 }
-.text12{
+.JuniorSchool-line1{
     margin:2rem 4.5rem;
   font-size: 1.3rem;
   width: 28rem;
 }
 
 
-.cv{
-    border-color: red;
-    border-radius: 1rem;
-    text-decoration: none;
-    background-color: rgb(53, 47, 47);
-    color: white;
-    padding: 1rem 2rem;
-    margin: -30rem 98rem;
-    /* position:fixed; */
-}
-.horn-line{
-    margin:21rem -12rem;
-  transform: rotate(90deg);
-  height: 0rem;
-  width: 36rem;
-    
-}
-.resumetext{
+
+/* .resumetext{
     display: flex;
     position: sticky;
-}
+} */
 
 /* skills-section */
 .skills{
@@ -183,7 +125,7 @@ margin:12rem 4rem;
   height: 0rem;
   width: 36rem;
 }
-.red-dot4{
+.red-dot1CS{
    width: 1rem;
     height: 1rem;
     background-color: red;
@@ -210,7 +152,7 @@ margin:12rem 4rem;
   background: linear-gradient(to right, red 50%, red 50%);
 
 }
-.red-dot5{
+.red-dot2CS{
    width: 1rem;
     height: 1rem;
     background-color: red;
@@ -234,7 +176,7 @@ margin:12rem 4rem;
     background: linear-gradient(to right, red 70%, rgb(59, 23, 23) 30%);
 
 }
-.red-dot6{
+.red-dot3CS{
    width: 1rem;
     height: 1rem;
     background-color: red;
@@ -258,13 +200,17 @@ margin:12rem 4rem;
   border-color: white solid 2rem;
   background: linear-gradient(to right, red 50%, rgb(59, 23, 23) 50%);
 }
+
+.container-resume2{
+    display: flex;
+}
 .experience{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
    margin: 50rem 7rem;
     font-style: italic;
     position: static;
-    width: 60rem;
+    width: 9rem;
     height: 60rem;
 }
 
@@ -307,7 +253,7 @@ margin:12rem 4rem;
 .designing{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
-   margin: -109rem 60rem;
+   margin: 50rem 37rem;
     font-style: italic;
     position: static;
     width: 60rem;
