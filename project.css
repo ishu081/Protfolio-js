@@ -41,3 +41,10 @@ display: flex;
     font-size: 4rem;
     cursor: pointer;
 }
+
+.project-container{
+    display: flex;
+}
+.add-project-button {
+  margin-left: auto; /* pushes it to the right IF inside a flex container */
+}
