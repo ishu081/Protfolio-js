@@ -1,71 +1,28 @@
-let projectName= document.getElementById("projectName");
-let projectLink= document.getElementById("projectLink");
-let inputAdd =document.getElementById("inputAdd");
+let projectName = document.getElementById("projectName");
+let projectLink = document.getElementById("projectLink");
+
 function addProject(){
-    if(projectName.value=="" || projectLink.value=="" ){
-        alert("Enter the Name and Link");
-    }
-    else{
-        // let div1 = document.createElement("div");
-        // div.innerHTML=projectName.value;
-        // inputadd.appendChild()
+    const div1 = document.createElement("div");
+    div1.setAttribute("class","project-container");
 
-        // let ancher = document.createElement("a");
-        // div.innerHTML=
-
-        const addValue = (inputAdd) => {
-            for(let input of inputAdd){
-                const container1 = document.createElement("div");
-                container1.classList.add("project-container");
-
-                const container2 = document.createElement("a")
-                container2.classList.add("ancherlist");
-                container2.setAttribute("href","projectLink");
-
-                const container3 = document.createElement("button");
-                container3.classList.add("name");
-                container3.innerHTML=projectName.value;
-                container2.appendChild(container3);
-            }
-        }
-    }
-    projectName.value=" ";
-    projectLink.value=" ";
-    saveData();
-}
-
-
-
-
-
-
-inputAdd.addEventListener("click", function(e){
-   if(e.target.tagName==="DIV"){
-        e.target.classlist.toggle("box");
-        saveData();
-    }
+    const anchor = document.createElement("a");
+    anchor.setAttribute("href", projectLink.value);
+    anchor.setAttribute("target", "_blank");
     
-},false);
+    const button1 = document.createElement("button");
+    button1.setAttribute("class","box");
 
-function saveData()
-{
-    if(inputAdd){
-        localStorage.setItem("data",projectName.innerHTML);
-    }
-}
+    const h2 = document.createElement("h2");
+    h2.setAttribute("class","name");
+    h2.innerHTML=projectName.value;
+    
+    const button2 = document.createElement("button");
+    button.setAttribute("class","delete");
+    button.setAttribute("onclick","deleteButton()");
+    button.innerHTML = "Delete";
 
-function getData()
-{
-    if(inputAdd){
-        inputAdd.innerHTML= localStorage.getItem("data");
-    }
+    button1.appendChild(h2);
+    button1.appendChild(button2);
+    anchor.appendChild(button1);
+    div1.appendChild(anchor);
 }
-getData();
-if (inputBox) { 
-    inputBox.addEventListener('keydown', function(event) {
-        if (event.key === 'Enter') {
-            addProject();
-        }
-    });
-}
-
