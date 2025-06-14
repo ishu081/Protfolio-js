@@ -7,7 +7,7 @@
     font-size: 1.5rem;
     margin-bottom: 1rem ;
     color: white;
-    overflow-y: auto;
+    overflow-y: scroll;
     /* position: fixed; */
 }
 
@@ -29,21 +29,27 @@ display: flex;
 .box:hover{
     background: linear-gradient(90deg, #000000 0.5%, #ffffff 100%);
 }
+.name{
+    width: 3rem;
+}
 .plus{
     font-size: 1rem;
     padding: 4rem 4rem;
 }
 .delete{
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    color: white;
-    font-size: 4rem;
-    cursor: pointer;
+   position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  margin:
+63rem 90rem;
 }
 
 .project-container{
     display: flex;
+    flex-wrap: wrap;
 }
 .add-project-button {
   margin-left: auto; /* pushes it to the right IF inside a flex container */
