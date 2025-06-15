@@ -336,7 +336,7 @@ margin:12rem 4rem;
   border-radius:2rem;
   margin:3rem 12rem;
   border-color: white solid 2rem;
-  background: linear-gradient(to right, red 50%, rgb(59, 23, 23) 50%);
+  background: linear-gradient(to right, red 30%, rgb(59, 23, 23) 70%);
 }
 .red-dot14{
   width: 1rem;
@@ -360,5 +360,5 @@ margin:12rem 4rem;
   border-radius:2rem;
   margin:3rem 12rem;
   border-color: white solid 2rem;
-  background: linear-gradient(to right, red 50%, rgb(59, 23, 23) 50%);
+  background: linear-gradient(to right, red 70%, rgb(59, 23, 23) 30%);
 }
