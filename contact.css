@@ -34,7 +34,12 @@
   flex: 1 1 200px;
   text-align: center;
   border-radius: 10px;
-  border: 1px solid #444;
+  border: 1px solid red;
+  margin-left: 1rem;
+  transition: background-color 0.1s ease;
+}
+.contact-info .box:hover {
+  background: #1f1f1f;
 }
 
 .contact-info i {
@@ -82,4 +87,27 @@
 .contact-form button:hover {
   background: #ff5500;
   color: #1f1f1f;
+}
+
+
+
+.phone-icon {
+width: 6rem;
+  height: 6rem;
+  margin:3rem -1.5rem;
+}
+.map-icon{
+  width: 6rem;
+  height: 6rem;
+  margin:3rem -1.5rem;
+}
+.gmail-icon{
+  width: 6rem;
+  height: 6rem;
+  margin:3rem -1.5rem;
+}
+.hire-icon{
+    width: 6rem;
+  height: 6rem;
+  margin:3rem -1.5rem;
 }
